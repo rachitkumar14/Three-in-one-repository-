@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 245, 248);
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+   margin-left: 160px;
+   margin-right: 160px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 60px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+}
+li{
+    list-style: none;
+}
+main{
+    display: flex;
+}
+.stethoscope{
+    position: absolute;
+    z-index: -1;
+    height: 70vh;
+    margin-left: 50px;
+    width: 140vh;
+
+}
+.main-left-data{
+    width: 145vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.main-left-data h1{
+    font-size: 60px;
+}
+.main-left-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vh;
+}
+.main-left-data button:hover{
+    background-color: rgb(243, 243, 44);
+    color: green;
+}
+.main-left-bottom button{
+    font-size: 30px;
+    padding:11px 26px 11px 26px;
+    border-radius: 40px;
+    background-color: rgb(29, 168, 71);
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+.main-left-data p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.main-bottom-angle{
+    display: flex;
+    gap: 8px;
+}
+.mouse{
+    margin-top: 20px;
+}
+.boxes{
+    position: absolute;
+    width: 50vh;
+    margin-top: 70px;
+}
+.boxes img{
+    height: 440;
+    width: 500px;
+}
+.green-box{
+    position: absolute;
+    z-index: -1;
+}
+.yellow-box{
+    margin-top: 110px;
+    margin-left: 43px;
+}
+.yellow-box img{
+    height:390px;
+    width: 449px;
+}
+main{
+    width: 50vh;
+}
+.doctor{
+    position: absolute;
+    z-index: 2;
+}
+.doctor img{
+    height: 622px;
+    width: 550px;
+    margin-top: -30px;
+    margin-left: -50px;
+}
